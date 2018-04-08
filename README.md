@@ -10,15 +10,15 @@ Instructions
 ------------
 Create a django project:
 
-    django-admin startproject --template=https://goo.gl/XtpUeK --extension=py,env <project_name>
+    django-admin startproject --template=https://goo.gl/XtpUeK --extension=py,sh,env <project_name>
   
 Go into the project directory:
 
     cd <project_name>
 
-Copy the environment settings sample into the root directory:
+Execute the startup script:
 
-    cp contrib/sample.env .env
+    ./start.sh
     
 Install all the dependencies:
 
